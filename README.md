@@ -37,7 +37,7 @@ Create the Domain Controller VM (Windows Server 2022) named “DC-1”.  Take no
 <br />
 
 <p>
-<img src="https://github.com/yUSaul/configure-ad/assets/140694677/608fa528-3dc5-45fe-9f4f-98654869d5cc"/>
+<img src="https://github.com/yUSaul/configure-ad/assets/140694677/608fa528-3dc5-45fe-9f4f-98654869d5cc"
 "/>
 </p>
 <p>
@@ -46,7 +46,7 @@ Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/yUSaul/configure-ad/assets/140694677/a087b4ff-e24a-4b9c-9671-be1fb31ddb86"/>
 </p>
 <p>
 Login to DC-1 and install Active Directory Domain Services.  Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is).  Restart and then log back into DC-1 as user: mydomain.com\labuser.
