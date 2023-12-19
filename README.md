@@ -70,7 +70,7 @@ From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP ad
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/yUSaul/configure-ad/assets/140694677/fc350310-32f9-4267-8b76-c83ac3bb2dc2"/>
 </p>
 <p>
 Log into Client-1 as mydomain.com\jane_admin and open system properties.  Click “Remote Desktop”.  Allow “domain users” access to remote desktop.  You can now log into Client-1 as a normal, non-administrative user now.
