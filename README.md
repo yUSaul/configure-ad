@@ -37,7 +37,8 @@ Create the Domain Controller VM (Windows Server 2022) named “DC-1”.  Take no
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/yUSaul/configure-ad/assets/140694677/608fa528-3dc5-45fe-9f4f-98654869d5cc"/>
+"/>
 </p>
 <p>
 Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping).  Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall.  Check back at Client-1 to see the ping succeed.
