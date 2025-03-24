@@ -202,7 +202,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
   Open PowerShell_ise as an administrator.
 </p> 
 <p>  
-  Create a new File and paste the contents of this script: # ----- Edit these Variables for your own Use Case ----- #
+  Create a new File and paste the contents of this script: 
+
+"# ----- Edit these Variables for your own Use Case ----- #
 $PASSWORD_FOR_USERS   = "Password1"
 $NUMBER_OF_ACCOUNTS_TO_CREATE = 1000
 # ------------------------------------------------------ #
@@ -247,7 +249,7 @@ while ($count -lt $NUMBER_OF_ACCOUNTS_TO_CREATE) {
                -Path "ou=_EMPLOYEES,$(([ADSI]`"").distinguishedName)" `
                -Enabled $true
     $count++
-}  into it:
+}"  into it:
 </p>
 <p>
   <img src="https://i.imgur.com/0i8uApf.png" height="75%" width="100%" alt="create users script"/>
